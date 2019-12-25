@@ -20,3 +20,7 @@ use testLib.cpp to test `libFaceDetectionLib.so`
 # fd standalone
 
 `test.cpp`
+
+# screenshot
+
+![](https://code.xugaoxiang.com/xugaoxiang/blog/raw/master/images/ai/opencv/opencv_fd_dnn.png)
