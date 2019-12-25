@@ -2,6 +2,10 @@
 
 face detection using opencv4 dnn in c++, make sure that opencv was compiled with cuda.
 
+# How to compile opencv with cuda?
+
+please see <https://xugaoxiang.com/2019/12/17/opencv-cuda/>
+
 # How to build so?
 
 ```
