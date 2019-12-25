@@ -19,4 +19,4 @@ use testLib.cpp to test `libFaceDetectionLib.so`
 
 # fd standalone
 
-`fdStandAlone.cpp`
+`test.cpp`
