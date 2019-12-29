@@ -66,8 +66,8 @@ int main(int argc, char** argv)
         exit(-1);
     }
 
-//    net.setPreferableBackend(DNN_BACKEND_HALIDE);
-//    net.setPreferableTarget(DNN_TARGET_CPU);
+   net.setPreferableBackend(DNN_BACKEND_CUDA);
+   net.setPreferableTarget(DNN_TARGET_CUDA);
 
     VideoCapture cap;
     if (parser.get<String>("video").empty())
