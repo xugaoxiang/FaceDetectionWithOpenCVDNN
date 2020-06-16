@@ -109,7 +109,7 @@ int main(int argc, char** argv)
         //! [Prepare blob]
         //!  image: 3 channels
         Mat inputBlob = blobFromImage(image, inScaleFactor,
-                                      Size(inWidth, inHeight), meanVal, false, false); //Convert Mat to batch of images
+                                      Size(image.cols, image.rows), meanVal, false, false); //Convert Mat to batch of images
         //! [Prepare blob]
 
         //! [Set input blob]
