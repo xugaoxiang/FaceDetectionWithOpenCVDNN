@@ -46,7 +46,7 @@ std::vector<Rect> face_detection(dnn::Net net, Mat frame, float confidenceThresh
     if (frame.channels() == 4)
         cvtColor(frame, frame, COLOR_BGRA2BGR);
 
-    Mat inputBlob = blobFromImage(frame, 1.0, Size(300, 300), (104.0, 177.0, 123.0), false, false);
+    Mat inputBlob = blobFromImage(frame, 1.0, Size(frame.cols, frame.rows), (104.0, 177.0, 123.0), false, false);
 
     net.setInput(inputBlob, "data");
 
